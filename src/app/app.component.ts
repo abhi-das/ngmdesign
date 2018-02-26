@@ -72,6 +72,18 @@ export class AppComponent {
 		initItem = { 'id': null, 'title': 'banana', 'complete': false, category: 1};
 		this.addInitItem(initItem);
 
+		initItem = { 'id': null, 'title': 'Egg Plant', 'complete': true, category: 2};
+		this.addInitItem(initItem);
+
+		initItem = { 'id': null, 'title': 'Lady Finger', 'complete': false, category: 2};
+		this.addInitItem(initItem);
+
+		initItem = { 'id': null, 'title': 'Coliflower', 'complete': true, category: 2};
+		this.addInitItem(initItem);
+
+		initItem = { 'id': null, 'title': 'Cabbage', 'complete': false, category: 2};
+		this.addInitItem(initItem);
+
 	}
 
 }
